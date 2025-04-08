@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Linq;
 
-namespace lr06.ModelEF
+namespace lr06.Model1
 {
     public partial class Model1 : DbContext
     {

@@ -1,4 +1,4 @@
-﻿using lr06.ModelEF;
+﻿using lr06.Model1;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,9 +14,9 @@ namespace lr06
 {
     public partial class Form2 : Form
     {
-        public Model1 db { get; set; }
+        public Model1.Model1 db { get; set; }
 
-        public Form2(Model1 DB_)
+        public Form2(Model1.Model1 DB_)
         {
             InitializeComponent();
             db = DB_;

@@ -1,4 +1,4 @@
-namespace lr06.ModelEF
+namespace lr06.Model1
 {
     using System;
     using System.Collections.Generic;
